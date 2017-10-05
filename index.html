@@ -2,4 +2,21 @@
   <head>
     <title>THIS SITE IS BLURRED<title/>
   <head/>
+  <body>
+    <script>
+function myFunction() {
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
+}
+    function prepareFrame() {
+        var ifrm = document.createElement("iframe");
+        ifrm.setAttribute("src", "http://google.com/");
+        ifrm.style.width = w;
+        ifrm.style.height = h;
+        document.body.appendChild(ifrm);
+    }
+</script> 
+</script>
+  <body/>
 <html/>
