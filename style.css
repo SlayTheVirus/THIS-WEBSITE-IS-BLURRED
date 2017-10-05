@@ -1,4 +1,5 @@
 body {
+    background-image: url("https://unsplash.it/1920/1080/")
     -webkit-filter: blur(10); /* Safari 6.0 - 9.0 */
     filter: blur(10);
 }
