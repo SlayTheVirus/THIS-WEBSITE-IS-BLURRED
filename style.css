@@ -1,12 +1,5 @@
-body {
-    background-image: url("https://source.unsplash.com/random");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center; 
+img {
+    align-content: center;
     -webkit-filter: blur(10px); /* Safari 6.0 - 9.0 */
     filter: blur(10px);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
